@@ -1,0 +1,16 @@
+# C++ executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Debug/build folders
+.vscode/
+build/
+bin/
+
+# Visual Studio generated files
+*.pdb
+*.ilk
+*.idb
