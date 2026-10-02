@@ -1,0 +1,12 @@
+Design a stack data structure that follows the Last In, First Out (LIFO) principle.
+The stack should support the following operations:
+1. push(x): Insert element x onto the top of the stack. If the stack is full, the operation should not insert the element.
+2. pop(): Remove and return the top element of the stack. If the stack is empty, handle the underflow condition.
+3. top() / peek(): Return the top element without removing it. If the stack is empty, handle the underflow condition.
+4. isEmpty(): Return true if the stack contains no elements; otherwise, return false.
+5. isFull(): Return true if the stack has reached its maximum capacity; otherwise, return false.
+Constraints:
+- The stack has a fixed maximum capacity of N.
+- Initially, the stack is empty.
+- Only the top element can be inserted or removed.
+- All operations should run in O(1) time.
